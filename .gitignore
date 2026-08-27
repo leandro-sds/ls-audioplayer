@@ -1,0 +1,26 @@
+# Build do PyInstaller
+build/
+dist/
+*.spec
+
+# Instalador gerado pelo Inno Setup
+Output/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Logs e temporários
+instalar_log.txt
+*.log
+
+# Plugins VST do usuário (cada um tem sua própria licença -
+# nunca redistribuir; a pasta em si é criada pelo programa)
+plugins/
+
+# Windows
+Thumbs.db
+desktop.ini
