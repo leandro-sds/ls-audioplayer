@@ -142,4 +142,4 @@ licença. Coloque os seus na pasta `plugins`.
 
 ---
 
-Desenvolvido por Leandro.
+Desenvolvido por Leandro Souza.

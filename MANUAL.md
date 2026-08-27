@@ -215,7 +215,7 @@ O LS AudioPlayer funciona no Windows 10 e 11, em versões de 64 bits.
 
 ## Créditos
 
-Desenvolvido por Leandro.
+Desenvolvido por Leandro Souza.
 
 Motor de áudio: **BASS**, de un4seen developments
 (www.un4seen.com) — gratuita para uso não-comercial.
