@@ -4,7 +4,7 @@ Um player de áudio acessível para Windows, no estilo Winamp clássico.
 Feito para ser usado inteiro pelo teclado, com foco em quem usa leitor
 de tela.
 
-**Versão atual: 1.0.0** — [Baixar o instalador](../../releases/latest)
+**Versão atual: 1.0.8** — [Baixar o instalador](../../releases/latest)
 
 ---
 
@@ -16,9 +16,17 @@ de tela.
   como num radinho
 - **Pastas favoritas** — guarda o caminho, não a lista: músicas novas
   aparecem sozinhas
-- **Equalizador e efeitos** — graves, médios, agudos, eco,
-  reverberação, compressor, coro e flanger
+- **Equalizador, efeitos e normalizador** — graves, médios, agudos,
+  eco, reverberação, compressor, coro, flanger, e um normalizador de
+  volume com 5 intensidades
+- **Velocidade e tom** — ajuste independente (preservando um ou
+  outro), ou os dois juntos como fita/vinil
 - **Plugins VST** — carregue processadores de áudio externos
+- **Modo portátil** — leve o programa e seus dados num pendrive
+- **Retoma de onde parou** — volta com a última playlist pronta pra
+  tocar
+- **Verifica atualizações sozinho** — avisa quando sai uma versão
+  nova, sem baixar nada sem sua permissão
 - **Listas de reprodução** — abre e salva `.m3u`, `.m3u8` e `.pls`
 - **Capa do álbum** — extraída automaticamente do arquivo
 - **Nome da música ao vivo** — nas rádios que enviam essa informação
@@ -41,15 +49,17 @@ Este é o ponto central do projeto, não um detalhe:
 | Tecla | Ação |
 |---|---|
 | **F1** | Lista completa de atalhos |
-| **Espaço** | Tocar / Pausar |
+| **X** | Tocar / voltar ao início do arquivo |
+| **C** ou **Espaço** | Pausar / continuar |
 | **B** / **Z** | Próxima / anterior |
 | **Setas** | Volume (cima/baixo), avançar/retroceder (lados) |
-| **Ctrl+O** | Abrir arquivos |
-| **Ctrl+D** | Abrir pasta |
+| **L** | Abrir arquivos |
+| **Shift+L** | Abrir pasta |
 | **Ctrl+P** | Pastas favoritas |
-| **Ctrl+U** | Abrir rádio por URL |
+| **Ctrl+L** | Abrir rádio por URL |
 | **Ctrl+F** | Rádios favoritas |
-| **Ctrl+E** | Equalizador e efeitos |
+| **Ctrl+E** | Equalizador, efeitos e normalizador |
+| **Ponto/Vírgula** | Velocidade ou tom (escolha em Preferências) |
 
 O [manual completo](MANUAL.md) tem a lista inteira.
 
